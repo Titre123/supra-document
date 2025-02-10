@@ -2,201 +2,67 @@
 
 ## Overview
 
-Supra Starter Packs provide boilerplate templates for rapid DApp development, incorporating essential configurations, libraries, and industry best practices. These packs enable developers to bypass time-consuming setup processes and focus on building core application functionality.
+Developing a Decentralized Application (DApp) can be complex, requiring a lot of setup and configuration before actual development begins. The Supra Starter Pack simplifies this process by providing ready-to-use templates and essential tools, allowing developers to focus on building their applications rather than dealing with setup challenges.
 
-## Key Features
+The Supra Starter Pack includes pre-built structures, industry-standard tools, and best practices to help developers launch their DApps quickly and efficiently. It eliminates the need to configure everything from scratch, making the development process faster and more streamlined.
 
-### Development Efficiency
-- Pre-configured development environment
-- Built-in testing framework
-- Hot-reloading for faster development
-- Automated build pipelines
-- Code linting and formatting tools
+## Key Benefits
 
-### Framework Support
-- Vue.js
-- React
-- Next.js
-- Angular
+### Faster Development
+- Comes with a pre-configured environment
+- Reduces time spent on initial setup
+- Includes tools for testing and debugging
+- Allows real-time updates during development
 
-### Integrated Technologies
-- Starkey Wallet integration
-- Web3 libraries (ethers.js, viem, starknet.js)
-- Modern UI frameworks (Tailwind CSS, Material UI)
-- TypeScript support
-- Smart contract development tools
+### Easy Adoption
+- Supports popular frameworks like Vue.js, React, Next.js, and Angular
+- Provides necessary integrations for blockchain interaction
+- Offers clear guidelines for setting up and maintaining projects
+
+### Essential Tools Included
+- Pre-integrated wallet connection for user authentication
+- Simplified blockchain interaction
+- Pre-built components for managing accounts, transactions, and balances
 
 ## Available Starter Packs
 
 ### 1. Vue DApp Starter
-Perfect for developers preferring Vue.js ecosystem
-```bash
-git clone https://github.com/supra-labs/dapp-starter-vue.git
-```
+A structured template designed for those who prefer working with Vue.js.
 
 ### 2. React DApp Starter
-Ideal for React-based applications
-```bash
-git clone https://github.com/supra-labs/dapp-starter-react.git
-```
+A well-optimized setup for developing applications using React.
 
 ### 3. Next.js DApp Starter
-Optimized for server-side rendering and static generation
-```bash
-git clone https://github.com/supra-labs/dapp-starter-nextjs.git
-```
+Ideal for developers who need fast-loading applications with built-in optimizations.
 
 ### 4. Angular DApp Starter
-Enterprise-ready Angular template
-```bash
-git clone https://github.com/supra-labs/dapp-starter-angular.git
-```
+A structured and scalable solution tailored for enterprise-grade applications.
 
 ### 5. Smart Contract Starter
-Foundation for blockchain development
-```bash
-git clone https://github.com/supra-labs/smart-contract-starter.git
-```
+A basic foundation that helps blockchain developers start working with smart contracts efficiently.
 
-## Getting Started
+## How to Use the Supra Starter Pack
 
-### Prerequisites
-- Node.js (v16.0.0 or higher)
-- npm or yarn package manager
-- Git
+The Supra Starter Pack provides a simple way to begin working on a blockchain application. Instead of spending hours setting up the environment and integrating different tools, developers can simply select the relevant starter pack and begin coding right away.
 
-### Installation Steps
-
-1. Clone your chosen starter pack:
-```bash
-git clone https://github.com/supra-labs/dapp-starter-[framework].git my-dapp
-cd my-dapp
-```
-
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
-
-3. Configure environment variables:
-```bash
-cp .env.example .env
-```
-
-4. Start development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-## Project Structure
-
-```
-my-dapp/
-├── src/
-│   ├── components/        # Reusable UI components
-│   ├── pages/            # Route components/pages
-│   ├── contracts/        # Smart contract interfaces
-│   ├── hooks/            # Custom hooks
-│   ├── utils/            # Helper functions
-│   └── config/           # Configuration files
-├── public/               # Static assets
-├── tests/                # Test files
-├── .env.example          # Environment variables template
-└── package.json          # Project dependencies
-```
-
-## Features in Detail
+## Key Features Explained
 
 ### Wallet Integration
-- Built-in Starkey Wallet connection
-- Account management
-- Transaction signing
-- Balance checking
-- Network switching
+- Provides a ready-made wallet connection feature
+- Enables user account management
+- Allows for secure transaction processing
 
-### Smart Contract Integration
-- Contract deployment scripts
-- ABI management
-- Contract interaction utilities
-- Event listening
+### Blockchain Connectivity
+- Simplifies smart contract deployment and management
+- Provides tools to interact with blockchain networks
+- Allows monitoring of transactions and events
 
-### UI Components
-- Wallet connection button
-- Transaction status indicators
-- Network selector
-- Account display
-- Balance display
+### User Interface Components
+- Includes basic UI elements for user authentication
+- Offers an intuitive way to track transactions and balances
+- Supports easy customization for different projects
 
-## Development Guidelines
+## Licensing Information
 
-### Code Style
-- Follow the established project structure
-- Use TypeScript for type safety
-- Implement proper error handling
-- Write unit tests for critical functions
-- Document complex logic
+Each starter pack includes a clear licensing structure to ensure that developers can use them legally and without restrictions.
 
-### Testing
-```bash
-# Run unit tests
-npm run test
-
-# Run e2e tests
-npm run test:e2e
-
-# Generate coverage report
-npm run test:coverage
-```
-
-### Building for Production
-```bash
-# Build the application
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Wallet Connection Failed**
-   - Ensure Starkey Wallet is installed
-   - Check network configuration
-   - Verify correct RPC endpoints
-
-2. **Build Errors**
-   - Clear node_modules and reinstall
-   - Update dependencies
-   - Check TypeScript compatibility
-
-3. **Contract Interaction Issues**
-   - Verify contract addresses
-   - Check network configuration
-   - Ensure sufficient gas
-
-## Support and Resources
-
-- GitHub Repository: [https://github.com/supra-labs](https://github.com/supra-labs)
-- Documentation: [https://docs.supra.com](https://docs.supra.com)
-- Community Discord: [https://discord.gg/supralabs](https://discord.gg/supralabs)
-- Technical Support: support@supra.com
-
-## Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your fork
-5. Submit a pull request
-
-## License
-
-MIT License - see LICENSE.md for details
